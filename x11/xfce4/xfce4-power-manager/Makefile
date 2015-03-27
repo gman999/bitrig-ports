@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.17 2015/03/22 21:00:53 landry Exp $
+# $OpenBSD: Makefile,v 1.18 2015/03/27 08:16:25 ajacoutot Exp $
 
 BROKEN = 	needs work on bitrig
 
@@ -6,6 +6,7 @@ COMMENT =	Xfce4 power manager
 
 XFCE_VERSION =	1.4.4
 XFCE_GOODIE =	xfce4-power-manager
+REVISION=	0
 
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes
