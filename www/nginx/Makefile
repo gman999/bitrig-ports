@@ -1,10 +1,10 @@
-# $OpenBSD: Makefile,v 1.75 2015/06/01 14:00:24 robert Exp $
+# $OpenBSD: Makefile,v 1.76 2015/06/19 05:41:35 robert Exp $
 
 BROKEN= 	needs work on bitrig
 
 COMMENT=	robust and small HTTP server and mail proxy server
 
-VERSION=	1.9.1
+VERSION=	1.9.2
 DISTNAME=	nginx-${VERSION}
 CATEGORIES=	www
 
@@ -66,6 +66,7 @@ CONFIGURE_ARGS+=	--prefix=${NGINX_DIR} \
 			--with-mail \
 			--with-mail_ssl_module \
 			--with-ipv6 \
+			--with-stream \
 			--without-mail_pop3_module \
 			--without-mail_imap_module \
 			--without-mail_smtp_module
