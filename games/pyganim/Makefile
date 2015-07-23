@@ -8,7 +8,6 @@ EXTRACT_SUFX =	.zip
 CATEGORIES =	games x11
 
 HOMEPAGE =	http://inventwithpython.com/pyganim/
-MAINTAINER =	Brian Callahan <bcallah@openbsd.org>
 
 # BSD
 PERMIT_PACKAGE_CDROM =	Yes
